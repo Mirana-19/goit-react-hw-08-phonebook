@@ -5,6 +5,7 @@ import {
   Label,
   Phonebook,
 } from 'components/ContactForm/ContactForm.styled';
+import { Button } from 'styles/Shared.styles';
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -27,7 +28,7 @@ const Login = () => {
         Password
         <Input type="password" name="password" />
       </Label>
-      <button type="submit">Login</button>
+      <Button type="submit">Login</Button>
     </Phonebook>
   );
 };

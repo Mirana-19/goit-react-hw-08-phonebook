@@ -5,6 +5,7 @@ import {
   Label,
   Phonebook,
 } from 'components/ContactForm/ContactForm.styled';
+import { Button } from 'styles/Shared.styles';
 
 const Register = () => {
   const dispatch = useDispatch();
@@ -38,7 +39,7 @@ const Register = () => {
         Password
         <Input type="password" name="password" />
       </Label>
-      <button type="submit">Register</button>
+      <Button type="submit">Register</Button>
     </Phonebook>
   );
 };
