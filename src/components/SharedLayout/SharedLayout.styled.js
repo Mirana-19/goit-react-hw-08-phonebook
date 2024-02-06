@@ -15,7 +15,11 @@ export const HeaderStyled = styled.header`
   font-size: 28px;
 `;
 
-export const MainStyled = styled.main``;
+export const MainStyled = styled.main`
+  max-width: 1200px;
+  padding: 70px;
+  margin: 0 auto;
+`;
 
 export const LinkStyled = styled(Link)`
   border-radius: 4px;
@@ -26,4 +30,9 @@ export const LinkStyled = styled(Link)`
   &:hover {
     background-color: #9b060e;
   }
+`;
+
+export const ContainerStyled = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
 `;
