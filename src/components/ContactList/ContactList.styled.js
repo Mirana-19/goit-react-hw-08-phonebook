@@ -10,7 +10,6 @@ export const Book = styled.ul`
 
 export const Item = styled.li`
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
   align-items: center;
   width: 400px;

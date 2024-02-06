@@ -28,8 +28,8 @@ export const ContactList = () => {
         {contacts.map(contact => (
           <Item key={contact.id}>
             <Contact>
-              <p>{contact.name}:</p>
-              <p>{contact.phone}</p>
+              <span>{contact.name}:</span>
+              <span>{contact.number}</span>
             </Contact>
             <Button
               onClick={() => dispatch(deleteContact(contact.id))}
