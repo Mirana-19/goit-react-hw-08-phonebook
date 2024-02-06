@@ -1,16 +1,18 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+export const NavStyled = styled.nav`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+`;
+
 export const HeaderStyled = styled.header`
-  padding: 25px;
+  padding: 30px;
   background-color: #222121;
   color: #f3f3f3;
   font-size: 28px;
-`;
-
-export const NavStyled = styled.nav`
-  display: flex;
-  gap: 40px;
 `;
 
 export const MainStyled = styled.main``;
